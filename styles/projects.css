@@ -1,0 +1,48 @@
+#projects {
+  padding: 72px 120px 144px 120px;
+
+  header {
+    text-align: center;
+    margin-bottom: 56px;
+
+    p {
+      font: var(--subtitle);
+      color: var(--red);
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      font: var(--title-md);
+      color: var(--gray-600);
+    }
+  }
+
+  div.project-card {
+    padding: 12px;
+    background-color: var(--gray-300);
+    border: 1.5px solid var(--gray-300);
+    border-radius: 12px;
+
+    img {
+      border-radius: 8px;
+      width: 100%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font: var(--title-sm);
+      color: var(--gray-600);
+      margin-bottom: 8px;
+    }
+
+    p {
+      font: var(--text-sm);
+      color: var(--gray-500);
+    }
+
+    &:hover {
+      border: 1.5px solid var(--gray-400);
+    }
+  }
+}

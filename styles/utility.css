@@ -1,0 +1,35 @@
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 330px);
+}
+
+.grid-cols-3-280 {
+  grid-template-columns: repeat(3, 280px);
+}
+
+.gap-24 {
+  gap: 24px;
+}
+
+.gap-12 {
+  gap: 12px;
+}

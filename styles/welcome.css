@@ -1,0 +1,65 @@
+#welcome {
+  background-image: url(../assets/images/Background_Intro.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding-top: 120px;
+
+  header {
+    flex-direction: column;
+    gap: 56px;
+    margin-bottom: 80px;
+  }
+
+  div#greetings {
+    text-align: center;
+
+    & p:first-child {
+      font: var(--subtitle);
+      color: var(--gray-500);
+      margin-bottom: 8px;
+
+      span {
+        color: var(--red);
+      }
+    }
+
+    h1 {
+      color: var(--gray-600);
+      margin-bottom: 20px;
+    }
+
+    p {
+      max-width: 680px;
+    }
+  }
+
+  div#techs {
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 94px;
+
+    .tech {
+      gap: 8px;
+      padding: 8px 16px;
+      background-color: var(--gray-300);
+      border-radius: 9999px;
+
+      span {
+        font: var(--text-md);
+        color: var(--gray-500);
+      }
+    }
+  }
+
+  div#btn-down {
+    button {
+      background-color: transparent;
+      border: none;
+      color: var(--gray-400);
+      font-size: 23px;
+      cursor: pointer;
+    }
+  }
+}
